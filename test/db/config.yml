@@ -3,14 +3,14 @@ test: &test
   database: test/db/test.sqlite3.db
   pool: 5
   timeout: 5000
-  
-develop: 
+
+development:
   adapter: sqlite3
   database: test/db/develop.sqlite3.db
   pool: 5
   timeout: 5000
-  
-production: 
+
+production:
   adapter: sqlite3
   database: test/db/production.sqlite3.db
   pool: 5
